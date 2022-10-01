@@ -2,17 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1">
     <title>Comidinhas</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="bundle.js"></script>
 </head>
 <body>
     <form id="add">
-        <input type="text" name="nome" autocomplete="off">
+        <label for="nome">Adicione uma comida: </label>
+        <input id="nome" type="text" name="nome" autocomplete="off" placeholder="nham nham...">
         <button>Adicionar</button>
     </form>
-    <ul id="list">
+    <main>
+        <ul id="list">
 
-    </ul>
+        </ul>
+    </main>
 </body>
 </html>
